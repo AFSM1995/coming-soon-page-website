@@ -1,0 +1,99 @@
+html, body {
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+    height: 100%;
+}
+
+/*=================================================
+    company-logo / intro-text / countdown-timer
+=================================================*/
+
+#company-logo img {
+    padding-top: 175px;
+}
+#intro-text p {
+    font-family: 'Just Another Hand';
+    font-size: 1.8em;
+    text-align: center;
+    color: white;
+}
+#countdown-timer .countdown {
+    font-family: 'Amatic SC', cursive;
+    font-size: 3em;
+    text-align: center;
+    color: white;
+    margin: -15px 0 0;
+}
+
+/*=================================================
+                    social icons
+=================================================*/
+
+#social-icons {
+    text-align: center;
+}
+#social-icons .fab {
+    margin: 5px 15px;
+    bottom: 0;
+    color: white;
+    position: relative;
+    transition: all 0.25s ease-in-out;
+}
+#social-icons .fas {
+    margin: 5px 15px;
+    bottom: 0;
+    color: white;
+    position: relative;
+    transition: all 0.25s ease-in-out;
+}
+#social-icons .fa-github-square:hover {
+    color: #6e5494;
+    bottom: 5px;
+}
+#social-icons .fa-envelope-square:hover {
+    color: #0199C4;
+    bottom: 5px;
+}
+#social-icons .fa-google-drive:hover {
+    color: #3D6EC9;
+    bottom: 5px;
+}
+#social-icons .twitter:hover {
+    color: #6cadde;
+    bottom: 5px;
+}
+#social-icons .facebook:hover {
+    color: #3b5998;
+    bottom: 5px;
+}
+#social-icons .google-plus:hover {
+    color: #ea4335;
+    bottom: 5px;
+}
+#social-icons .instagram:hover {
+    color: #517fa6;
+    bottom: 5px;
+}
+
+/*=================================================
+                    signup
+=================================================*/
+
+div p {
+    color: white;
+}
+
+#signup {
+    text-align: center;
+    padding-bottom: 25px;
+}
+#signup .form-inline {
+    display: block;
+}
+#signup .btn {
+    background-color: rgba(161, 186, 226, 0.4);
+    color: white;
+}
+#signup .btn:hover {
+    background-color: rgba(37, 165, 82, 0.75);
+}
