@@ -1,8 +1,16 @@
+/*=================================================
+    full website
+=================================================*/
+
 html, body {
     background-image: url('../img/bg.jpg');
     background-size: cover;
     height: 100%;
 
+}
+
+div p {
+    color: white;
 }
 
 /*=================================================
@@ -46,19 +54,35 @@ html, body {
 }
 
 /*=================================================
-                    social icons
+    signup
 =================================================*/
 
-#copyMessage {
-	position: absolute;
-	width: 100%;
-    color: #fff;
-    line-height: 40px;
-    font-size: 0.9em;
-	text-align: center;
-	bottom:0;
-/*    background-color: rgba(3,8,47,0.4);;*/
+#signup p{
+    text-align: left;
+    align-content: center;
+    align-items: center;
+    align-self: center;
 }
+
+#signup .form-inline {
+    text-align: center;
+    padding-bottom: 10px;
+    padding-right: 0px;
+    display: block;
+}
+
+#signup .btn {
+    background-color: rgba(161, 186, 226, 0.4);
+    color: white;
+}
+
+#signup .btn:hover {
+    background-color: rgba(37, 165, 82, 0.75);
+}
+
+/*=================================================
+    social icons
+=================================================*/
 
 #social-icons {
 	position: absolute;
@@ -102,35 +126,16 @@ html, body {
 }
 
 /*=================================================
-                    signup
+    footer
 =================================================*/
 
-div p {
-    color: white;
-}
-
-#signup p{
-    text-align: left;
-    align-content: center;
-    align-items: center;
-    align-self: center
-/*    padding-left: 18%;*/
-    
-}
-
-#signup .form-inline {
-    text-align: center;
-    padding-bottom: 10px;
-    padding-right: 0px;
-    display: block;
-}
-
-#signup .btn {
-    background-color: rgba(161, 186, 226, 0.4);
-    
-    color: white;
-}
-
-#signup .btn:hover {
-    background-color: rgba(37, 165, 82, 0.75);
+#copyMessage {
+	position: absolute;
+	width: 100%;
+    color: #fff;
+    line-height: 40px;
+    font-size: 0.9em;
+	text-align: center;
+	bottom:0;
+/*    background-color: rgba(3,8,47,0.4);;*/
 }

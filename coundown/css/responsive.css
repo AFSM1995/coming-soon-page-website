@@ -11,8 +11,10 @@
     /* good to go */
 }
 /* small devices (portrait tablets & small desktops) */
-@media (min-width: 768px) and (max-width: 991px) {
-    /* good to go */
+@media (min-width: 767px) and (max-width: 991px) {
+        #countdown-timer .countdown {
+        font-size: 1.7em !important;
+    }
 }
 
 /*=================================================
@@ -20,38 +22,68 @@
 =================================================*/
 
 /* extra small devices (landscape phones & portrait tablets) */
-@media (max-width: 767px) { 
-    #company-logo img {
-        width: 60%;
-    }
+@media (max-width: 766px) { 
     #countdown-timer .countdown {
-        font-size: 2.0em !important;
+        font-size: 1.7em !important;
     }
     #social-icons .fa {
         margin: 10px 7px 0 !important;
         font-size: 2.5em;
     }
 }
-@media (max-width: 575px) {
-    #company-logo img {
-        width: 50%;
+
+@media (max-width: 576px) {
+    #mainMessage p {
+    font-size: 0.9em;
+    margin: 10px 0 0;
+        font-weight: 400;
     }
-    #social-icons .fa {
-        margin: 10px 5px 0 !important;
-        font-size: 2.4em;
+    
+    #countdown-timer .countdown {
+        font-size: 1.8em !important;
+        margin-bottom: 20px;
     }
+    
     #signup .btn {
         margin-top: 15px;
     }
+    
     #signup .form-control {
-        width: 175px;
+        width: 400px;
         margin: 0 auto;
     }
 }
-@media (max-width: 480px) {
-    #countdown-timer .countdown {
-        font-size: 1.8em !important;
+
+@media (max-width: 575px) {
+    #mainMessage p {
+    font-size: 0.8em;
+    margin: 10px 0 0;
+        font-weight: 400;
     }
+    
+    #countdown-timer .countdown {
+        font-size: 1.6em !important;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 494px) {
+    #countdown-timer .countdown {
+        font-size: 1.5em !important;
+    }
+    
+    #introMessage p {
+    padding-top: 20%;
+/*font-family: 'Niramit', sans-serif;*/
+    font-size: 1.6em;
+    }
+    
+    #mainMessage p {
+    font-size: 1.0em;
+    margin: 10px 0 0;
+        font-weight: 400;
+    }
+    
 }   
 @media (max-width: 320px) {   
     #company-logo img {
