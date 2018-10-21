@@ -3,7 +3,7 @@
     if (isset($_POST['submit'])) {
         
         $from = $_POST['email'];
-        $to = 'afsm1995@live.com';
+        $to = 'alvaro@alvarosantillan.com';
         $subject = 'Email signup';
         $body = 'Please sign me up to the mailing list';
         
@@ -13,7 +13,7 @@
         
         if (!$emailError) {
             if (mail ($to, $subject, $body, $from)) {
-                $result = '<div class="text-success"><i class="fa fa-check" aria-hidden="true"></i> &nbsp;thank you we\'ll keep you updated</div>';
+                $result = '<div class="text-success"><i class="fa fa-check" aria-hidden="true"></i> &nbsp;thank you I\'ll keep you updated</div>';
             } else {
                 $result = '<div class="text-danger"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> &nbsp;sorry there has been an error, please try again</div>';
             }
@@ -115,8 +115,9 @@
                            <a href="https://github.com/AFSM1995" target="#"><li class="list-inline-item"><i class="fab fa-github-square fa-3x" aria-hidden="true"></i></li></a>                             
                            <a href="https://drive.google.com/file/d/1oJEurhMurC-LhqLdDZoYkuvMs0rJdCyv/view?usp=sharing" target="#"><li class="list-inline-item"><i class="fas fa-envelope-square fa-3x" aria-hidden="true"></i></li></a>
                            
-                           <a href="https://drive.google.com/file/d/1oJEurhMurC-LhqLdDZoYkuvMs0rJdCyv/view?usp=sharing" target="#"><li class="list-inline-item"><i class="fab fa-google-drive fa-3x" aria-hidden="true"></i></li></a>  
-                           
+                           <a href="https://drive.google.com/file/d/1oJEurhMurC-LhqLdDZoYkuvMs0rJdCyv/view?usp=sharing" target="#"><li class="list-inline-item"><i class="fab fa-google-drive fa-3x" aria-hidden="true"></i></li></a> 
+
+                           <a href="https://www.linkedin.com/in/alvaro-santillan-2b0764173/" target="#"><li class="list-inline-item"><i class="fab fa-linkedin fa-3x" aria-hidden="true"></i></li></a> 
                         </ul>
                     </div>
                 </div>
