@@ -124,13 +124,28 @@ div p {
 }
 
 #social-icons .fa-envelope-square:hover {
-    color: #0199C4;
+    color: #0071C5;
     bottom: 5px;
 }
 
 #social-icons .fa-google-drive:hover {
     color: #3D6EC9;
     bottom: 5px;
+}
+
+#social-icons .fa-linkedin:hover {
+    color: #0077B5;
+    bottom: 5px;
+}
+
+#button {
+    background-color: transparent;
+    padding: 0;
+        border: none;
+    outline:none;
+      text-decoration: none;
+  border: none;
+  box-shadow: none;
 }
 
 /*=================================================
